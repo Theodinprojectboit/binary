@@ -54,7 +54,7 @@ public class Binary {
 	public static void convertHexadecimal(String number) {
 		int decimal = Integer.parseInt(number, 16);
 		String binary = Integer.toBinaryString(decimal);
-		System.out.printf("%n1. Decimal: %d%%n2. Binary: %s%n3. Octal: %o%n%n", decimal, binary, decimal);
+		System.out.printf("%n1. Decimal: %d%n2. Binary: %s%n3. Octal: %o%n%n", decimal, binary, decimal);
 	}
 
 }
